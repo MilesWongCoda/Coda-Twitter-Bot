@@ -29,8 +29,8 @@ bot/
 
 ```bash
 # Clone and create virtual environment
-git clone https://github.com/YOUR_USERNAME/chainmacrolab.git
-cd chainmacrolab
+git clone https://github.com/YOUR_USERNAME/crypto-twitter-bot.git
+cd crypto-twitter-bot
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt

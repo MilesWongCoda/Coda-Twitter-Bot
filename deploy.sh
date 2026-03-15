@@ -4,7 +4,7 @@
 #
 # Configure VPS connection in environment or edit below:
 VPS="${DEPLOY_VPS:-user@your-server-ip}"
-REMOTE="${DEPLOY_PATH:-/opt/chainmacrolab}"
+REMOTE="${DEPLOY_PATH:-/opt/crypto-twitter-bot}"
 
 set -e
 echo "=== Deploying to $VPS:$REMOTE ==="
@@ -34,6 +34,6 @@ echo "=== Done ==="
 echo ""
 echo "Now SSH and restart:"
 echo "  ssh $VPS"
-echo "  systemctl restart chainmacrolab"
-echo "  journalctl -u chainmacrolab -n 20 --no-pager"
+echo "  systemctl restart crypto-twitter-bot"
+echo "  journalctl -u crypto-twitter-bot -n 20 --no-pager"
 echo ""
