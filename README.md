@@ -103,4 +103,12 @@ export DEPLOY_PATH="/path/to/bot"
 
 ## License
 
+## About
+
+Built by [Coda One](https://www.codaone.ai) — a hand-reviewed AI tools directory
+with 289+ tools, 244 agent skills, and safety ratings.
+
+This bot uses [Claude](https://www.codaone.ai/tools/claude) for tweet generation
+and [GPT-4o](https://www.codaone.ai/tools/chatgpt) for news summarization.
+
 MIT
